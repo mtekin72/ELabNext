@@ -1,0 +1,23 @@
+{
+  "baseUrl": "https://sandbox.elabjournal.com/",
+  "testFiles": [
+    "**/*.feature"
+  ],
+  "retries": {
+    "runMode": 1
+  },
+  "viewportWidth": 1024,
+  "viewportHeight": 768,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 19000,
+  "compilerOptions": {
+    "allowJs": true,
+    "types": [
+      "cypress"
+    ]
+  },
+  "include": [
+    "**/*.*"
+  ],
+  "projectId": "inx5gc"
+}
