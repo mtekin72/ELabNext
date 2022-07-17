@@ -1,0 +1,167 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Adding and Removing Sampels",
+    "line": 1,
+    "id": "adding-and-removing-sampels",
+    "tags": [],
+    "uri": "AddRemoveSample.feature",
+    "elements": [
+      {
+        "id": "adding-and-removing-sampels;add-and-remove-new-sapmle",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Add and Remove New Sapmle",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to loginpage",
+            "result": {
+              "status": "passed",
+              "duration": 6908000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user enters valid email and password",
+            "result": {
+              "status": "passed",
+              "duration": 5603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user should be able to successfully login",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user shoule be landed to Dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user navigates to Samples",
+            "result": {
+              "status": "passed",
+              "duration": 2154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user click -Add Sample- button",
+            "result": {
+              "status": "passed",
+              "duration": 2034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user selects  -sample type ranorex- \"19394\" from options",
+            "result": {
+              "status": "passed",
+              "duration": 476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user clicks -Proceed- button",
+            "result": {
+              "status": "passed",
+              "duration": 2268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "user should be landed to Inventory-Browser Tab \"Createnew sample type ranorex\"",
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "user fill \"Test name-1\" on name  field \"Name\"",
+            "result": {
+              "status": "passed",
+              "duration": 763000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user clicks -Save and Close- button",
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "user should see Samples Lists table \"Test name-1\" ,\"Ranorex User\" ,\"sample type ranorex\" information",
+            "result": {
+              "status": "passed",
+              "duration": 3126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user should remove Sample \"Test name-1\"",
+            "result": {
+              "status": "passed",
+              "duration": 525000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "LogOut",
+            "result": {
+              "status": "passed",
+              "duration": 641000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

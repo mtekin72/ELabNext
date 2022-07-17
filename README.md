@@ -26,15 +26,15 @@ Install dependencies by running the following command in terminal (from inside y
 <I><B>npx cypress open </I></B> to see the Cypress runner
 </I></B> npm install --save-dev cypress-cucumber-preprocessor </I></B> 
 
-To run test in headless mode, please type below given code in terminal to run @smoke test.
+To run test in headless mode, please type  below given code in terminal to run @smoke test-Headless mode.
 <I><B>npx cypress-tags run -e TAGS="@smoke" </I></B>
 
-To run test in headless mode Syncronised with  Cypress Dashboard on Cypress Runnner-Runs Tab.Reports and test video is uploded on the Dashboard.
+To see the test result and video on Cypress Dashboard , click the link given below.When you want to execute a new test which links to Cypress Dashboard, type on terminal to below given code to execute the test and same tome see the result on the Dashboard link in report view.
 Invite Link:https://dashboard.cypress.io/invitation/64b56c08-4258-4f25-97f6-ddae4c8dac40
 <I><B>npm run cypress-run</I></B>
 
 
-You can watch test results under the Videos folder# AssignmentELabNext
-# AssignmentELabNext
 
+# AssignmentELabNext
+Test result is labeled on Github with this piece of code.
 [![ELabJournal](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/inx5gc/main&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/inx5gc/runs)
