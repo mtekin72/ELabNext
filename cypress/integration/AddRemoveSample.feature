@@ -1,7 +1,7 @@
 Feature: Adding and Removing Sampels
 
 @smoke
-Scenario Outline: Add and Remove New Sapmle 
+Scenario Outline: Add a New Sample and Remove the Sapmle 
 
 Given user navigates to loginpage
 When user enters valid email and password
